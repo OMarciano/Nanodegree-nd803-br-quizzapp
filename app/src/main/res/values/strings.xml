@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Android Quizz</string>
+
+
+        <!-- Nem todas as questões estarão no app!! -->
+        <!-- Primeira questão -->
+        <string name="question1">1 ) Qual o nome da primeira central de aplicativos do android?</string>
+        <string name="q1Resposta1">Musk Store</string>
+        <string name="q1Resposta2">Google Store</string>
+        <string name="q1Resposta3">Android Market</string>
+
+        <!-- Segunda Questão -->
+
+        <string name="question2">2 ) Qual é a primeira versão do Android?</string>
+        <string name="q2Resposta1">Elon Musk Simpsons 1.0</string>
+        <string name="q2Resposta2">Android Donuts 1.6</string>
+        <string name="q2Resposta3">Android Choco 1.0</string>
+
+        <!-- Terceira Questão -->
+
+        <string name="question3">3 ) Qual o nome da empresa que produz o Android?</string>
+
+
+        <!-- Quarta Questão -->
+
+        <string name="question4">4 ) Qual é a versão atual do Android?</string>
+        <string name="q4Resposta1">Larry P 8</string>
+        <string name="q4Resposta2">Cake 7</string>
+        <string name="q4Resposta3">Oreo 8</string>
+
+        <!-- Quinta Questão -->
+
+        <string name="question5">5 ) Em que ano o Android foi lançado?</string>
+        <string name="q5Resposta1">2008</string>
+        <string name="q5Resposta2">2118</string>
+        <string name="q5Resposta3">1998</string>
+
+    <!-- Sexta Questão -->
+
+    <string name="question6">4 ) Qual o nome dessa empresa?</string>
+
+    <!-- Dicas -->
+    <string name="q3dica">Microsoft</string>
+    <string name="q4dica">JetVodka!</string>
+    <string name="q6dica">Ela desenvolve a IDE Android Studio!</string>
+
+    <!-- botao -->
+    <string name="enviar">Enviar respostas!</string>
+</resources>
