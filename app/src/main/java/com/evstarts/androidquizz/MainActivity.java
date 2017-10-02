@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
     boolean question3;
     boolean question4;
 
+
+    //TODO: Checar a resposta da questão 1 e caso esteja correto adicionar a resposta no montaTexto
     private void checkQq1() {
         RadioButton radioButtonQ1 = (RadioButton) findViewById(R.id.rbRadioQ13);
         boolean isQuestion1Checked = radioButtonQ1.isChecked();
@@ -54,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
+    //TODO: Checar a resposta da questão 2 e caso esteja correto adicionar a resposta no montaTexto
     private void checkQq2() {
         RadioButton radioButtonQ2 = (RadioButton) findViewById(R.id.rbRadioQ22);
         boolean isQuestion1Checked = radioButtonQ2.isChecked();
@@ -71,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //TODO: Receber a entrada de usuario e converter em string, retorna o valor adicionado
     private String getQuestion3UserInput() {
         EditText userInput = (EditText) findViewById(R.id.etQ3);
         String name = userInput.getText().toString();
@@ -83,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
         return name;
     }
 
+    //TODO: checa que o usuario escreveu Google
     private void checkQq3() {
         String checkQuestion = getQuestion3UserInput();
         if (checkQuestion.trim().equalsIgnoreCase("google")) {
@@ -99,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+        //// TODO: Checa se o usuario escreveu JetBrains
     private void checkQq4() {
         String checkQuestion = getQuestion4UserInput();
         if (checkQuestion.trim().equalsIgnoreCase("jetbrains")) {
@@ -114,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-        
+        //TODO: Verifica se o usuario acertou as questões e monta o texto/toast
         public void check(){
         checkQq1();
         checkQq2();
