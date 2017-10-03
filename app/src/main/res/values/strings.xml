@@ -21,7 +21,7 @@
 
         <!-- Quarta Questão -->
 
-        <string name="question4">5 ) Quais dessas funções não pertence ao android?</string>
+        <string name="question4">5 ) Quais dessas funções pertencem ao android?</string>
         <string name="q4Resposta1">Alimentar o cachorro</string>
         <string name="q4Resposta2">Comprar a Tesla</string>
         <string name="q4Resposta3">Tirar fotos</string>
