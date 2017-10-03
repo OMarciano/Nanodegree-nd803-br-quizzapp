@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Android Quizz</string>
 
-
         <!-- Nem todas as questões estarão no app!! -->
         <!-- Primeira questão -->
         <string name="question1">1 ) Qual o nome da primeira central de aplicativos do android?</string>
@@ -20,22 +19,14 @@
 
         <string name="question3">3 ) Qual o nome da empresa que produz o Android?</string>
 
-
         <!-- Quarta Questão -->
 
-        <string name="question4">4 ) Qual é a versão atual do Android?</string>
-        <string name="q4Resposta1">Larry P 8</string>
-        <string name="q4Resposta2">Cake 7</string>
-        <string name="q4Resposta3">Oreo 8</string>
+        <string name="question4">5 ) Quais dessas funções não pertence ao android?</string>
+        <string name="q4Resposta1">Alimentar o cachorro</string>
+        <string name="q4Resposta2">Comprar a Tesla</string>
+        <string name="q4Resposta3">Tirar fotos</string>
 
-        <!-- Quinta Questão -->
-
-        <string name="question5">5 ) Em que ano o Android foi lançado?</string>
-        <string name="q5Resposta1">2008</string>
-        <string name="q5Resposta2">2118</string>
-        <string name="q5Resposta3">1998</string>
-
-    <!-- Sexta Questão -->
+    <!-- Quinta Questão -->
 
     <string name="question6">4 ) Qual o nome dessa empresa?</string>
 

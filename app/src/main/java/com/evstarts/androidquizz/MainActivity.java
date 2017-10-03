@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
@@ -24,12 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         };
-
-
-
         submit = (Button) findViewById(R.id.submitButton);
         submit.setOnClickListener(submitButton);
-
 
     }
     Button submit;
@@ -39,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     boolean question2;
     boolean question3;
     boolean question4;
-
+    boolean question5;
 
     //TODO: Checar a resposta da questão 1 e caso esteja correto adicionar a resposta no montaTexto
     private void checkQq1() {
@@ -118,20 +115,48 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //TODO: Verifica se a checkbox correta foi selecionada
+    private void checkQq5(){
+        CheckBox cb1 = (CheckBox) findViewById(R.id.checkBox);
+        CheckBox cb2 = (CheckBox) findViewById(R.id.checkBox2);
+        CheckBox cb3 = (CheckBox) findViewById(R.id.checkBox3);
 
+        boolean cb1isChecked = cb1.isChecked();
+        boolean cb2isChecked = cb2.isChecked();
+        boolean cb3isChecked = cb3.isChecked();
+
+        if (cb1isChecked || cb2isChecked){
+            montaTexto += "Hmmm... aparentemente você errou a terceira questão!! \n";
+        }else if(cb3isChecked){
+            question5 = true;
+            correctAnswers += 1;
+            montaTexto += "Você acertou a questão 5! \n";
+            Log.v("MainActivity", "Questão quatro foi");
+        }
+
+    }
         //TODO: Verifica se o usuario acertou as questões e monta o texto/toast
         public void check(){
         checkQq1();
         checkQq2();
         checkQq3();
         checkQq4();
-        if (question1 && question2 && question3 && question4){
+        checkQq5();
+        if (question1 && question2 && question3 && question4 && question5){
             montaTexto = "Você acertou todas as questões!";
 
-    }
+
+
+
+        }
            Toast.makeText(MainActivity.this, montaTexto,
                     Toast.LENGTH_LONG).show();
 
+            question1 = false;
+            question2 = false;
+            question3 = false;
+            question4 = false;
+            question5 = false;
 
 }
 }
