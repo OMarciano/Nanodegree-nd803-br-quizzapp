@@ -1,30 +1,30 @@
 <resources>
     <string name="app_name">Android Quizz</string>
 
-        <!-- Nem todas as questões estarão no app!! -->
-        <!-- Primeira questão -->
-        <string name="question1">1 ) Qual o nome da primeira central de aplicativos do android?</string>
-        <string name="q1Resposta1">Musk Store</string>
-        <string name="q1Resposta2">Google Store</string>
-        <string name="q1Resposta3">Android Market</string>
+    <!-- Nem todas as questões estarão no app!! -->
+    <!-- Primeira questão -->
+    <string name="question1">1 ) Qual o nome da primeira central de aplicativos do android?</string>
+    <string name="q1Resposta1">Musk Store</string>
+    <string name="q1Resposta2">Google Store</string>
+    <string name="q1Resposta3">Android Market</string>
 
-        <!-- Segunda Questão -->
+    <!-- Segunda Questão -->
 
-        <string name="question2">2 ) Qual é a primeira versão do Android?</string>
-        <string name="q2Resposta1">Elon Musk Simpsons 1.0</string>
-        <string name="q2Resposta2">Android Donuts 1.6</string>
-        <string name="q2Resposta3">Android Choco 1.0</string>
+    <string name="question2">2 ) Qual é a primeira versão do Android?</string>
+    <string name="q2Resposta1">Elon Musk Simpsons 1.0</string>
+    <string name="q2Resposta2">Android Donuts 1.6</string>
+    <string name="q2Resposta3">Android Choco 1.0</string>
 
-        <!-- Terceira Questão -->
+    <!-- Terceira Questão -->
 
-        <string name="question3">3 ) Qual o nome da empresa que produz o Android?</string>
+    <string name="question3">3 ) Qual o nome da empresa que produz o Android?</string>
 
-        <!-- Quarta Questão -->
+    <!-- Quarta Questão -->
 
-        <string name="question4">5 ) Quais dessas funções pertencem ao android?</string>
-        <string name="q4Resposta1">Alimentar o cachorro</string>
-        <string name="q4Resposta2">Comprar a Tesla</string>
-        <string name="q4Resposta3">Tirar fotos</string>
+    <string name="question4">5 ) Quais dessas funções pertencem ao android?</string>
+    <string name="q4Resposta1">Alimentar o cachorro</string>
+    <string name="q4Resposta2">Comprar a Tesla</string>
+    <string name="q4Resposta3">Tirar fotos</string>
 
     <!-- Quinta Questão -->
 
@@ -37,4 +37,11 @@
 
     <!-- botao -->
     <string name="enviar">Enviar respostas!</string>
+
+    <!-- Identificadores -->
+    <string name="primeira">primeira</string>
+    <string name="segunda">segunda</string>
+    <string name="terceira">terceira</string>
+    <string name="quarta">quarta</string>
+    <string name="quinta">quinta</string>
 </resources>

@@ -1,5 +1,4 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
@@ -7,12 +6,12 @@
         <item name="colorPrimaryDark">#00e676</item>
         <item name="colorAccent">#1b5e20</item>
     </style>
-    
-<style name="QuestionTitle">
+
+    <style name="QuestionTitle">
     <item name="android:textSize">14sp</item>
     <item name="android:padding">8dp</item>
     <item name="android:textColor">@android:color/black</item>
-</style>
+    </style>
 
     <!-- Nome hibrido > em ingles -->
     <style name="QuestionTitleWithDica">

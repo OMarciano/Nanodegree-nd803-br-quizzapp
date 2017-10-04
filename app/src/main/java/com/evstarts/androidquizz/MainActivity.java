@@ -32,11 +32,12 @@ public class MainActivity extends AppCompatActivity {
     Button submit;
     int correctAnswers = 0;
     String montaTexto = "";
-    boolean question1;
-    boolean question2;
-    boolean question3;
-    boolean question4;
-    boolean question5;
+    private boolean question1;
+    private boolean question2;
+    private boolean question3;
+    private boolean question4;
+    private boolean question5;
+
 
     //TODO: Checar a resposta da questão 1 e caso esteja correto adicionar a resposta no montaTexto
     private void checkQq1() {
@@ -94,7 +95,6 @@ public class MainActivity extends AppCompatActivity {
 
             Log.v("MainActivity", "Questão tres foi");
 
-
         }else {
             montaTexto += "Hmmm... aparentemente você errou a terceira questão!! \n";
         }
@@ -109,9 +109,8 @@ public class MainActivity extends AppCompatActivity {
             montaTexto += "Você acertou a questão 4! \n";
             Log.v("MainActivity", "Questão quatro foi");
 
-
         }else {
-            montaTexto += "Hmmm... aparentemente você errou a terceira questão!! \n";
+            montaTexto += "Hmmm... aparentemente você errou a quarta questão!! \n";
         }
     }
 
@@ -126,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
         boolean cb3isChecked = cb3.isChecked();
 
         if (cb1isChecked || cb2isChecked){
-            montaTexto += "Hmmm... aparentemente você errou a terceira questão!! \n";
+            montaTexto += "Hmmm... aparentemente você errou a quinta questão!! \n";
         }else if(cb3isChecked){
             question5 = true;
             correctAnswers += 1;
@@ -144,20 +143,15 @@ public class MainActivity extends AppCompatActivity {
         checkQq5();
         if (question1 && question2 && question3 && question4 && question5){
             montaTexto = "Você acertou todas as questões!";
-
-
-
-
         }
-           Toast.makeText(MainActivity.this, montaTexto,
-                    Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, montaTexto, Toast.LENGTH_LONG).show();
 
-            question1 = false;
-            question2 = false;
-            question3 = false;
-            question4 = false;
-            question5 = false;
+        question1 = false;
+        question2 = false;
+        question3 = false;
+        question4 = false;
+        question5 = false;
 
-}
+    }
 }
 
